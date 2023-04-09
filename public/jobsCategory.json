@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "image": "https://i.postimg.cc/9FDcFb6P/accounts-1.png",
+      "name": "Account & Finance",
+      "jobAvailable": "300 job available"
+    },
+    {
+      "id": "2",
+      "image": "https://i.postimg.cc/rFN7TrmG/business-1.png",
+      "name": "Graphic Designer",
+      "jobAvailable": "150 job available"
+    },
+    {
+      "id": "3",
+      "image": "https://i.postimg.cc/YC2ZCCG5/chip-1.png",
+      "name": "Engineering Job",
+      "jobAvailable": "100+ job available"
+    },
+    {
+      "id": "4",
+      "image": "https://i.postimg.cc/7ZBcGrSf/social-media-1.png",
+      "name": "Marketing Manager",
+      "jobAvailable": "200+ job available"
+    }
+  ]
+  

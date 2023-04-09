@@ -11,7 +11,7 @@ const Header = () => {
                 <Link to='/appliedJobs'>Applied Jobs</Link>
                 <Link to='/blog'>Blog</Link>
             </div>
-            <button className='bg-gradient-to-r from-sky-500 to-indigo-500 p-3 rounded-lg text-white font-bold'>Star Applying</button>
+            <button className='bg-gradient-to-r from-sky-500 to-indigo-500 px-3 py-2 rounded-lg text-white font-bold'>Star Applying</button>
         </div>
     );
 };
