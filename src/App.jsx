@@ -11,7 +11,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="App container mx-5">
+    <div className="App container">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
