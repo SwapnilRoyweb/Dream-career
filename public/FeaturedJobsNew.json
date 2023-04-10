@@ -1,0 +1,110 @@
+[
+    {
+    "id": 1,
+    "companyLogo": "https://i.postimg.cc/yYywbt5n/google-1-1-1.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Google LLC",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles",
+    "fullTimeOrPartTime": "Full-time",
+    "salary": "$70,000-$90,000",
+    "jobDescription": "We are seeking a skilled data analyst to join our team...",
+    "jobResponsibility": "Collect and analyze large sets of data...",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Statistics or related field",
+    "experiences": "2+ years of experience in data analysis",
+        "contactInformation": {
+        "phone": "555-123-4567",
+        "email": "dataanalyst@abccorp.com"
+        }
+    },
+    {
+    "id": 2,
+    "companyLogo": "https://i.postimg.cc/BnZd9Nf3/tesla-9-1.png",
+    "jobTitle": "Sales Manager",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Onsite",
+    "location": "Atlanta",
+    "fullTimeOrPartTime": "Full-time",
+    "salary": "$80,000-$100,000",
+    "jobDescription": "We are seeking an experienced sales manager to join our team...",
+    "jobResponsibility": "Develop and implement sales strategies...",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "5+ years of experience in sales",
+    "contactInformation": {
+    "phone": "555-555-5555",
+    "email": "salesmgr@xyzcorp.com"
+    }
+    },
+    {
+    "id": 3,
+    "companyLogo": "https://i.postimg.cc/g0nQrJ0B/Group-10021.png",
+    "jobTitle": "Content Writer",
+    "companyName": "AirBnb",
+    "remoteOrOnsite": "Remote",
+    "location": "California",
+    "fullTimeOrPartTime": "Part-time",
+    "salary": "$30-$50 per hour",
+    "jobDescription": "We are seeking a creative content writer to join our team...",
+    "jobResponsibility": "Write high-quality content for various marketing materials...",
+    "educationalRequirements": "Bachelor's degree in English, Journalism, Marketing or related field",
+    "experiences": "2+ years of experience in content writing",
+    "contactInformation": {
+    "phone": "555-789-1234",
+    "email": "contentwriter@acmemarketing.com"
+    }
+    },
+    {
+    "id": 4,
+    "companyLogo": "https://i.postimg.cc/y8f2V97Z/netflix-4-1.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "New York",
+    "fullTimeOrPartTime": "Full-time",
+    "salary": "$90,000-$110,000",
+    "jobDescription": "We are seeking a talented UI/UX designer to join our team...",
+    "jobResponsibility": "Design and improve user interfaces for various software applications...",
+    "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
+    "experiences": "3+ years of experience in UI/UX design",
+    "contactInformation": {
+    "phone": "555-555-1234",
+    "email": "uiuxdesigner@techcompany.com"
+    }
+    },
+    {
+    "id": 5,
+    "companyLogo": "https://i.postimg.cc/y8f2V97Z/netflix-4-1.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "New York",
+    "fullTimeOrPartTime": "Full-time",
+    "salary": "$90,000-$110,000",
+    "jobDescription": "We are seeking a talented UI/UX designer to join our team...",
+    "jobResponsibility": "Design and improve user interfaces for various software applications...",
+    "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
+    "experiences": "3+ years of experience in UI/UX design",
+    "contactInformation": {
+    "phone": "555-555-1234",
+    "email": "uiuxdesigner@techcompany.com"
+    }
+    },
+    {
+    "id": 6,
+    "companyLogo": "https://i.postimg.cc/y8f2V97Z/netflix-4-1.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "New York",
+    "fullTimeOrPartTime": "Full-time",
+    "salary": "$90,000-$110,000",
+    "jobDescription": "We are seeking a talented UI/UX designer to join our team...",
+    "jobResponsibility": "Design and improve user interfaces for various software applications...",
+    "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
+    "experiences": "3+ years of experience in UI/UX design",
+    "contactInformation": {
+    "phone": "555-555-1234",
+    "email": "uiuxdesigner@techcompany.com"
+    }
+    }
+]
