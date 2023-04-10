@@ -12,10 +12,8 @@
     "jobResponsibility": "Collect and analyze large sets of data...",
     "educationalRequirements": "Bachelor's degree in Computer Science, Statistics or related field",
     "experiences": "2+ years of experience in data analysis",
-        "contactInformation": {
         "phone": "555-123-4567",
         "email": "dataanalyst@abccorp.com"
-        }
     },
     {
     "id": 2,
@@ -30,10 +28,8 @@
     "jobResponsibility": "Develop and implement sales strategies...",
     "educationalRequirements": "Bachelor's degree in Marketing or related field",
     "experiences": "5+ years of experience in sales",
-    "contactInformation": {
     "phone": "555-555-5555",
     "email": "salesmgr@xyzcorp.com"
-    }
     },
     {
     "id": 3,
@@ -48,10 +44,8 @@
     "jobResponsibility": "Write high-quality content for various marketing materials...",
     "educationalRequirements": "Bachelor's degree in English, Journalism, Marketing or related field",
     "experiences": "2+ years of experience in content writing",
-    "contactInformation": {
     "phone": "555-789-1234",
     "email": "contentwriter@acmemarketing.com"
-    }
     },
     {
     "id": 4,
@@ -66,10 +60,8 @@
     "jobResponsibility": "Design and improve user interfaces for various software applications...",
     "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
     "experiences": "3+ years of experience in UI/UX design",
-    "contactInformation": {
     "phone": "555-555-1234",
     "email": "uiuxdesigner@techcompany.com"
-    }
     },
     {
     "id": 5,
@@ -84,10 +76,8 @@
     "jobResponsibility": "Design and improve user interfaces for various software applications...",
     "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
     "experiences": "3+ years of experience in UI/UX design",
-    "contactInformation": {
     "phone": "555-555-1234",
     "email": "uiuxdesigner@techcompany.com"
-    }
     },
     {
     "id": 6,
@@ -102,9 +92,7 @@
     "jobResponsibility": "Design and improve user interfaces for various software applications...",
     "educationalRequirements": "Bachelor's degree in Graphic Design, Computer Science or related field",
     "experiences": "3+ years of experience in UI/UX design",
-    "contactInformation": {
     "phone": "555-555-1234",
     "email": "uiuxdesigner@techcompany.com"
-    }
     }
 ]

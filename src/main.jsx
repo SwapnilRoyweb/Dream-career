@@ -12,6 +12,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import FeaturedJobDetails from './components/FeaturedJobs/FeaturedJobDetails/FeaturedJobDetails';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         loader: () => fetch('FeaturedJobsNew.json')
+      },
+      {
+        path: '/jobDetails/:jobId',
+        element: <FeaturedJobDetails></FeaturedJobDetails>,
+        loader: ({params}) => fetch(`/FeaturedJobsNew.json`)
       },
       {
         path: 'statistics',

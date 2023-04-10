@@ -1,11 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
-const FeatureJob = ({featureJob, job}) => {
+const FeatureJob = ({featureJob}) => {
     // console.log(featureJob);
-    const {companyLogo, jobTitle, companyName, remoteOrOnsite, location, fullTimeOrPartTime, salary} = featureJob;
-    // const {companyLogo, jobTitle, companyName, remoteOrOnsite, location, fullTimeOrPartTime, salary} = job;
+    const {companyLogo, jobTitle, companyName, remoteOrOnsite, location, fullTimeOrPartTime, salary, id} = featureJob;
+
     return (
         <div className='border border-purple-500 py-6 px-8 rounded-lg flex flex-col items-center justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300'>
             <img src={companyLogo} alt="" />
@@ -25,7 +26,7 @@ const FeatureJob = ({featureJob, job}) => {
                     <span className='ms-1'>{salary}</span>
                 </p>
             </div>
-            <button className='bg-purple-500 text-white font-semibold px-3 py-2 mt-3 rounded-lg hover:bg-purple-700'>View Details</button>
+            <button className='bg-purple-500 text-white font-semibold px-3 py-2 mt-3 rounded-lg hover:bg-purple-700'><Link to={`/jobDetails/${id}`}>View Details</Link></button>
         </div>
     );
 };

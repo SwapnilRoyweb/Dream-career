@@ -6,10 +6,12 @@ const FeaturedJobs = ({FeatureJobs}) => {
     const [featureJobs, setJobs] = useState([]);
 
     const firstFeatureJobs = FeatureJobs.slice(0, 4);
+    const secondFeatureJobs = FeatureJobs.slice(5, 6);
 
     const handleSeeAllButton = () => {
         // firstFeatureJobs = [];
-        setJobs(FeatureJobs);
+        setJobs({...firstFeatureJobs, ...secondFeatureJobs});
+        console.log(featureJobs);
     }
 
     return (
