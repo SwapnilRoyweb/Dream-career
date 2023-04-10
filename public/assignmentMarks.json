@@ -1,0 +1,34 @@
+[
+    {
+        "assignmentNo" : "1",
+        "marks": 60
+    },
+    {
+        "assignmentNo" : "2",
+        "marks": 59
+    },
+    {
+        "assignmentNo" : "3",
+        "marks": 60
+    },
+    {
+        "assignmentNo" : "4",
+        "marks": 45
+    },
+    {
+        "assignmentNo" : "5",
+        "marks": 30
+    },
+    {
+        "assignmentNo" : "6",
+        "marks": 32
+    },
+    {
+        "assignmentNo" : "7",
+        "marks": 58
+    },
+    {
+        "assignmentNo" : "8",
+        "marks": 58
+    }
+]
