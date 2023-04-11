@@ -24,7 +24,7 @@ const FeaturedJobDetails = () => {
                 <img src="https://i.ibb.co/dDRNdLn/Vector-1.png" alt="" />
             </div>
             <div className='mt-20 flex items-center justify-center gap-10'>
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 w-96'>
                     <p><span className='font-bold'>Job Description: </span> <br />{jobDescription}</p>
                     <p><span className='font-bold'>Job Responsibility: </span><br />{jobResponsibility}</p>
                     <p><span className='font-bold'>Educational Requirements: </span><br />{educationalRequirements}</p>

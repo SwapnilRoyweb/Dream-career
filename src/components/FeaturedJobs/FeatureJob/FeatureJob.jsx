@@ -9,7 +9,7 @@ const FeatureJob = ({featureJob}) => {
 
     return (
         <div className='border border-purple-500 py-6 px-8 rounded-lg flex flex-col items-center justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300'>
-            <img src={companyLogo} alt="" />
+            <img className='w-40' src={companyLogo} alt="" />
             <h1 className='font-bold mt-5'>{jobTitle}</h1>
             <p className='text-gray-500 text-sm'>{companyName}</p>
             <div className='mt-3'>
