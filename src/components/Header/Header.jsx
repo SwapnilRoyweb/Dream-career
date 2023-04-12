@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex justify-evenly mt-5'>
+        <div className='flex flex-col items-center gap-2 md:flex-row justify-evenly mt-5'>
             <h2 className='text-3xl font-extrabold'>Dream<span className='text-indigo-500'>Career</span></h2>
             <div className='flex gap-5 text-gray-500 font-medium'>
                 <Link to='/'>Home</Link>

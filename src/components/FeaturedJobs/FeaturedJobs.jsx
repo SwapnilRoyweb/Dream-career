@@ -20,8 +20,8 @@ const FeaturedJobs = ({FeatureJobs}) => {
     return (
         <div className='mt-10 flex flex-col items-center'>
             <h1 className='text-5xl font-extrabold'>Featured Jobs</h1>
-            <p className='mt-3 text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            <div className='grid grid-cols-2 gap-7 mt-10'>
+            <p className='mt-3 text-gray-500 text-center'>Explore thousands of job opportunities with all the information you need.<br /> Its your future</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-7 mt-10'>
                 {
                     featureJobs.map(featureJob => <FeatureJob key={featureJob.id} featureJob={featureJob}></FeatureJob>)
                 }

@@ -8,7 +8,7 @@ const Blog = () => {
                 <h1 className='text-center font-bold text-5xl mt-5'>Blogs</h1>
                 <img src="https://i.ibb.co/dDRNdLn/Vector-1.png" alt="" />
             </div>
-            <div className='text-center bg-purple-200 mx-20 p-10 mt-10 rounded-full flex flex-col gap-8'>
+            <div className='text-center bg-purple-200 mx-20 p-10 mt-5 rounded-full flex flex-col gap-8'>
                 <div className='bg-white rounded-full mx-20 p-2 hover:-translate-y-6'>
                     <h3 className='text-lg font-bold'>When should you use context API?</h3>
                     <p>we use <strong>Context API</strong> share state across the entire application</p>
