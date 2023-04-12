@@ -13,6 +13,7 @@ import Blog from './components/Blog/Blog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import FeaturedJobDetails from './components/FeaturedJobs/FeaturedJobDetails/FeaturedJobDetails';
+import NotFoundPage from './components/NotFoundPage/NotFoundPage';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/*',
+        element: <NotFoundPage></NotFoundPage>
       }
     ]
   }

@@ -10,7 +10,7 @@ const AppliedJobs = () => {
     const appliedJobsInDB = getAppliedJobs();
     // console.log(appliedJobsInDB);
 
-    useEffect(() => {
+    const FoundJob = () => {
         const founedJobs = [];
         for(const id in appliedJobsInDB){
             const foundedAppliedJob = Jobs.find(job => job.id == id);
@@ -18,39 +18,32 @@ const AppliedJobs = () => {
                 founedJobs.push(foundedAppliedJob)
             }
         }
-        setAppliedJobs(founedJobs);
+        return founedJobs;
+    }
+
+    useEffect(() => {
+        const foundJobs = FoundJob();
+        setAppliedJobs(foundJobs);
     }, []);
 
     const handleOnSiteButton = () => {
-        const founedJobs = [];
-        for(const id in appliedJobsInDB){
-            const foundedAppliedJob = Jobs.find(job => job.id == id);
-            if(foundedAppliedJob){
-                founedJobs.push(foundedAppliedJob)
-            }
-        }
+        const foundJobs = FoundJob();
         const isOnsite = (job) => {
            const Job = job.remoteOrOnsite == 'Onsite';
             return Job;
         }
-        const onsiteJob = founedJobs.filter(isOnsite);
+        const onsiteJob = foundJobs.filter(isOnsite);
         // console.log(onsiteJobs);
         setAppliedJobs(onsiteJob);
     }
 
     const handleRemoteButton = () => {
-        const founedJobs = [];
-        for(const id in appliedJobsInDB){
-            const foundedAppliedJob = Jobs.find(job => job.id == id);
-            if(foundedAppliedJob){
-                founedJobs.push(foundedAppliedJob)
-            }
-        }
+        const foundJobs = FoundJob();
         const isRemote = (job) => {
             const remoteJob = job.remoteOrOnsite == 'Remote';
             return remoteJob;
         }
-        const remoteJob = founedJobs.filter(isRemote);
+        const remoteJob = foundJobs.filter(isRemote);
         setAppliedJobs(remoteJob);
     }
     
