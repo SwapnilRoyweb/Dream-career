@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68906a7580bd8b42bad8877d121d65916c23e3a4
 # Dream Career
 
 this project is a job website and it is for Programming Hero Team. It is a project for us from Programming Hero Team.
