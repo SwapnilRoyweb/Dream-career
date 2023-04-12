@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faCircleDollarToSlot, faUserSecret, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { addToDb } from '../../../utilities/fakeDB';
 
 
 const FeaturedJobDetails = () => {
@@ -14,7 +15,11 @@ const FeaturedJobDetails = () => {
         setJobDetails(Job);
     }, [])
     // console.log(jobDetails.phone);
-    const {jobDescription, jobResponsibility, educationalRequirements, experiences,  salary, jobTitle, phone, email, location} = jobDetails;
+    const {jobDescription, jobResponsibility, educationalRequirements, experiences,  salary, jobTitle, phone, email, location, id} = jobDetails;
+
+    const handleApplyButton = (id) => {
+        addToDb(id);
+    }
 
     return (
         <div>
@@ -62,7 +67,7 @@ const FeaturedJobDetails = () => {
                                 {location}
                             </p>
                         </div>
-                <button className='px-5 py-2 bg-purple-500 mt-5 text-white rounded-lg font-bold'>Apply Now</button>
+                <button className='px-5 py-2 bg-purple-500 mt-5 text-white rounded-lg font-bold' onClick={() => handleApplyButton(id)}><Link to="/appliedJobs">Apply Now</Link></button>
                 </div>
             </div>
         </div>
